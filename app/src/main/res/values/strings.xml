@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Guardian of Eclipse</string>
+    <string name="app_name__frrf">© Guardian of Eclipse</string>
+
+    <string name="take_imagefgtgt">Choose Image</string>
+
+
+    <string name="facebook_app_idfgtgt">1496873694160040</string>
+    <string name="fb_login_protocol_schemegtgt">fb1496873694160040</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragmentgtgt">Hello blank fragment</string>
+</resources>

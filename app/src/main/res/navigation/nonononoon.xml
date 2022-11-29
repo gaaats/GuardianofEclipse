@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nonononoon"
+    app:startDestination="@id/entteeerrtFragment">
+
+    <fragment
+        android:id="@+id/entteeerrtFragment"
+        android:name="com.deuscraft.Turbo.EntteeerrtFragment"
+        android:label="fragment_entteeerrt"
+        tools:layout="@layout/fragment_entteeerrt" >
+        <action
+            android:id="@+id/action_entteeerrtFragment_to_gaaaamyFragment"
+            app:destination="@id/gaaaamyFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/reloadFragment"
+        android:name="com.deuscraft.Turbo.ReloadFragment"
+        android:label="fragment_reload"
+        tools:layout="@layout/fragment_reload" >
+        <action
+            android:id="@+id/action_reloadFragment_to_gaaaamyFragment"
+            app:destination="@id/gaaaamyFragment"
+            app:launchSingleTop="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/gaaaamyFragment"
+        android:name="com.deuscraft.Turbo.GaaaamyFragment"
+        android:label="fragment_gaaaamy"
+        tools:layout="@layout/fragment_gaaaamy" >
+        <action
+            android:id="@+id/action_gaaaamyFragment_to_reloadFragment"
+            app:destination="@id/reloadFragment" />
+    </fragment>
+</navigation>
